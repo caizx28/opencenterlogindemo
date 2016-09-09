@@ -37,6 +37,7 @@ static dispatch_once_t onceToken;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"第一次提交");
     //监测网络
     AFNetworkReachabilityManager *reac = [AFNetworkReachabilityManager sharedManager];
 //    [reac setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
