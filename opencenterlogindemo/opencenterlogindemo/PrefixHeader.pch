@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  opencenterlogindemo
+//
+//  Created by 蔡宗杏 on 16/9/2.
+//  Copyright © 2016年 蔡宗杏. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import "UIView+MGExtension.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AppDelegate.h"
+#import "ProjectDefine.h"
+#import "FileOperate.h"
+#endif
+#endif /* PrefixHeader_pch */
